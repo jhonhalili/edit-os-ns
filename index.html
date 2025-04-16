@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WIRE System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- sample carousel -->
+    <div id="backgroundCarousel" class="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="New Images/bg1.png" alt="Background 1">
+            </div>
+            <div class="carousel-item">
+                <img src="New Images/bg3.jpg" alt="Background 3">
+            </div>
+            <div class="carousel-item">
+                <img src="New Images/bg4.jpg" alt="Background 4">
+            </div>
+        </div>
+    </div> 
+
+    <!-- hheader -->
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <img src="Logos/stiwire.png" alt="Logo">
+            </a>
+        </div>
+    </header>
+    
+    <main>
+        <div class="login-container">
+            <div class="login-left">
+                <div class="illustration-carousel">
+                    <div class="illustration active">
+                        <img src="Illustration/illus1.jpg" alt="Illustration 1">
+                    </div>
+                    <div class="illustration">
+                        <img src="Illustration/illus2.jpg" alt="Illustration 2">
+                    </div>
+                    <div class="illustration">
+                        <img src="Illustration/illus3.jpg" alt="Illustration 3">
+                    </div>
+                    <div class="illustration">
+                        <img src="Illustration/illus4.jpg" alt="Illustration 4">
+                    </div>
+                    <div class="illustration">
+                        <img src="Illustration/illus5.jpg" alt="Illustration 5">
+                    </div>
+                    <div class="illustration">
+                        <img src="Illustration/illus6.jpg" alt="Illustration 6">
+                    </div>
+                    <div class="illustration">
+                        <img src="Illustration/illus7.jpg" alt="Illustration 7">
+                    </div>
+                    <div class="illustration">
+                        <img src="Illustration/illus8.jpg" alt="Illustration 8">
+                    </div>
+                    <div class="illustration">
+                        <img src="Illustration/illus9.jpg" alt="Illustration 9">
+                    </div>
+                    <div class="illustration">
+                        <img src="Illustration/illus10.jpg" alt="Illustration 10">
+                    </div>
+                </div>
+                
+            </div>
+            <div class="login-right">
+                <div id="login-form">
+                    <img src="Logos/stiwire b.png" alt="WIRE SYSTEM Logo" class="login-form-logo">
+                    <p>Please <span class="logincolor">login</span> to continue.</p> <br> <br>
+                    <form>
+                        <div class="input-group">
+                            <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                            <input type="email" placeholder="Email Address" required>
+                        </div>
+                        <div class="input-group">
+                            <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                            <input type="password" placeholder="Password" required>
+                        </div>
+                        <div class="options">
+                            <label><input type="checkbox"> Remember Me</label>
+                            <a href="#" class="fgpw" id="forgot-password">Forgot Password?</a>
+                        </div>
+                        <br>
+                        <button type="submit" class="login-now">Login Now</button>
+                    </form>
+                </div>
+
+                <form id="forgot-password-form" novalidate style="display: none;">
+                    <h2>Forgot Your <span class="pwd">Password</span>?</h2>
+                    <span class="enp" ><p>Enter your <span class="email">email</span> and create a <span class="newpass">new password.</span></p></span> <br>
+                    <div class="input-group">
+                        <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                        <input type="email" name="forgot-email" placeholder="Email Address" required>
+                    </div>
+                    <div class="input-group">
+                        <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                        <input type="password" name="new-password" placeholder="New Password" required>
+                    </div>
+                    <div class="input-group">
+                        <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                        <input type="password" name="confirm-password" placeholder="Confirm Password" required>
+                    </div>
+                    <br>
+                    <button type="submit" id="forgot-password-button" class="login-now">Reset Password</button> <br>
+                    <p><a href="#" id="back-to-login" class="back-to-login">Back to Login</a></p>
+                </form>
+            </form>
+
+
+                              
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
