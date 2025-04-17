@@ -23,7 +23,14 @@
     font-size: 14px;
     text-align: center;
 }
+.styled-ns-table th,
+.styled-ns-table td {
+  text-align: center;
+}
 
+.styled-ns-table td:first-child {
+  text-align: left; 
+}
 .dark-mode table{
     background: linear-gradient(to bottom, #464646, #1d1d1d);
 }
