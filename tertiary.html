@@ -105,14 +105,14 @@
                   <button class="edit-btn" id="editBtn" onclick="editNSTable()">Edit</button>
                   <button class="save-btn" id="saveBtnns" onclick="saveNSChanges()">Save Changes</button>
               </div>
-              <table>
+              <table class="styled-ns-table"> 
                   <thead>
                       <tr>
                           <th>Program</th>
-                          <th>Online Inquirer</th>
-                          <th>Inquirer</th>
-                          <th>Registration</th>
-                          <th>Enrollee</th>
+                          <th>Online Inquirers</th>
+                          <th>Inquirers</th>
+                          <th>Registrations</th>
+                          <th>Enrollees</th>
                       </tr>
                   </thead>
                   <tbody id="programTableNS"></tbody>
@@ -157,7 +157,7 @@
                             <div class="filter-controls">
                                 <label for="branchFilter"></label>
                                 <select id="branchFilterComparison">
-                                  <option value="all">All Branches</option>
+                                  <option value="all">Branches</option>
                                   
                                   <optgroup label="National Capital Region (NCR)">
                                     <option value="STI College Alabang">STI College Alabang</option>
@@ -296,7 +296,7 @@
                             <div class="filter-controls">
                                 <label for="branchFilter"></label>
                                 <select id="branchFilterRanking">
-                                  <option value="all">All Branches</option>
+                                  <option value="all">Branches</option>
                                   <optgroup label="National Capital Region (NCR)">
                                     <option value="STI College Alabang">STI College Alabang</option>
                                     <option value="STI College Caloocan">STI College Caloocan</option>
