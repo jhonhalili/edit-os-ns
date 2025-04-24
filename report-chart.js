@@ -59,7 +59,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // --- Slide 1: Donut Chart ---
     const donutCtx = document.getElementById("programChart").getContext("2d");
     new Chart(donutCtx, {
-        type: "doughnut",
+        type: "polarArea",
         data: {
             labels: programNames,
             datasets: [{
