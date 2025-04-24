@@ -147,14 +147,10 @@ function saveNSChanges(){
 }
 
 function saveData() {
-    if (confirm("Are you sure you want to save?")) {
-        alert("Data has been saved successfully!");
         document.getElementById("saveBtn").disabled = true;
-    }
 }
 
 function editData() {
-    alert("You can now edit the data.");
     document.getElementById("saveBtn").disabled = false;
 }
 
